@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "lausse";
+  src: url("./assets/Lausanne-300.woff2") format("woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "lausse2";
+  src: url("./assets/Lausanne-500.woff2") format("woff2");
+  font-weight: 500;
+}
+@theme {
+  --font-main: "lausse", sans-serif;
+  --font-secondary: "lausse2", sans-serif;
+}
